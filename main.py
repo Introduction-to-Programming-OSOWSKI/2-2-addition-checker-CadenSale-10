@@ -1,8 +1,8 @@
 def addCheck(x, y, z):
     if x + y==z:
-        return("T")
+        return True
     else:
-        return("F")
+        return False
 
 
 print(addCheck(2,2,4))
